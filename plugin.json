@@ -1,0 +1,18 @@
+{
+	"id": "nodebb-plugin-cards-fullname",
+	"name": "Hover Cards - Full Name",
+	"description": "NodeBB plugin that adds a hover card to every profile link",
+	"url": "https://github.com/mickeyhioe/nodebb-plugin-cards-fullname",
+	"library": "library.js",
+	"hooks": [],
+	"staticDirs": {
+		"public": "public"
+	},
+	"less": [
+		"public/less/style.less"
+	],
+	"scripts": [
+		"public/js/main.js"
+	],
+	"templates": "templates"
+}

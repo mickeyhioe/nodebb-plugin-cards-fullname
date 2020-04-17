@@ -1,0 +1,28 @@
+{
+    "name": "nodebb-plugin-cards-fullname",
+    "version": "0.0.1",
+    "description": "Add fullname to card hover",
+    "main": "library.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mickeyhioe/nodebb-plugin-cards-fullname.git"
+    },
+    "keywords": [
+      "NodeBB",
+      "plugin",
+      "fullname",
+      "card"
+    ],
+    "author": "Mickey Hioe <mickey.ola@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/mickeyhioe/nodebb-plugin-cards-fullname/issues"
+    },
+    "homepage": "https://github.com/mickeyhioe/nodebb-plugin-cards-fullname#readme",
+    "nbbpm": {
+        "compatibility": "^0.9.0 || ^1.0.0"
+    },
+}
