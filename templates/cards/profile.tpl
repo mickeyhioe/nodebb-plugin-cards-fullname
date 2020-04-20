@@ -58,7 +58,9 @@
     </div>
 
     <div class="profile-card-info">
-        <h1 class="fullname"><!-- IF fullname -->{fullname}<!-- ELSE -->{username}<!-- ENDIF fullname --></h1>
+        <h1 class="fullname">
+            <!-- IF fullname -->{fullname}<!-- ELSE -->{username}<!-- ENDIF fullname -->
+        </h1>
 
         <div class="text-center">
             <!-- IF !isSelf -->
@@ -97,11 +99,13 @@
         </div>
 
         <div class="text-center profile-meta">
-            <!-- IF email -->
-            <span><i class="fa fa-envelope-open-o" aria-hidden="true"></i></span>
-            <strong><i class="fa fa-eye-slash {emailClass}" title="[[user:email_hidden]]"></i> {email}</strong>
+            <!-- IF username -->
+            <span><i class="fa fa-user" aria-hidden="true"></i></span>
+            <a href="{config.relative_path}/user/{userslug}" itemprop="author" data-username="{username}" data-uid="{uid}">
+                <strong>@{username}</strong>
+            </a>
             <br/>
-            <!-- ENDIF email -->
+            <!-- ENDIF username -->
 
             <!-- IF websiteName -->
             <span><i class="fa fa-edge" aria-hidden="true"></i></span>
